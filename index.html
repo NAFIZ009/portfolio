@@ -9,9 +9,9 @@
 </head>
 <body>
     
-    <div class="container-fluid px-sm-5 py-2" style="height: 1000px;">
+    <div class="container-fluid px-sm-5 py-2" >
         <!-- navbar -->
-        <nav class="navbar navbar-expand-md navbar-dark px-sm-5 position-sticky top-0 ">
+        <nav class="navbar navbar-expand-md navbar-dark px-sm-5 position-sticky top-0 " style="z-index: 100;">
             <a class="navbar-brand fs-4" style="font-weight: bolder;" href="#">Jalal Ahmed</a>
             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@
             </div>
         </nav>
         <!-- main body -->
-        <div class="container py-5">
+        <div class="container py-5" style="z-index: 0;">
             <div class="row">
                 <div class="col-sm-9 mx-auto py-2">
                     <div class="card " style="width: 100%;background-color: transparent;">
@@ -36,7 +36,16 @@
                           <h5 class="card-title text-center">&#x1F44B; Hello,I am <span class="fs-2">JALAL AHMED</span></h5>
                           <div class="text-center pb-4" style="font-weight: 200;">Backend Engineer | Node.js | Express.js | MySQL | MongoDB</div>
                           <p class="card-text text-center">I am a dedicated backend developer passionate about crafting robust and efficient solutions. With a solid foundation in backend technologies, I specialize in leveraging Node.js, Express.js, MySQL, MongoDB, and various other tools to create powerful and scalable applications.</p>
-                          
+                          <h4 class="text-center mt-5 mb-4">Connect With Me</h4>
+                          <div class="icons w-50 mx-auto rounded-5 py-3 d-flex justify-content-around align-items-center">
+                            <a href="https://github.com/NAFIZ009">
+                                <i class="fa-brands fa-square-github fa-2xl" style="color: #000000;"></i>
+                            </a>
+                            <a href="mailto:jalalahmednafiz@gmail.com"><i class="fa-solid fa-envelope fa-2xl" style="color: #000000;"></i></a>
+                            <a href="https://www.linkedin.com/in/jalal-ahmed-nafiz-/">
+                                <i class="fa-brands fa-linkedin fa-2xl" style="color: #000000;"></i>
+                            </a>
+                          </div>
                         </div>
                       </div>
                 </div>
@@ -53,6 +62,9 @@
         </div>
 
     </div>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/23c828fab0.js" crossorigin="anonymous"></script>
     
     <!-- bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
