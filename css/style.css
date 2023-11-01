@@ -29,10 +29,7 @@
     overflow: hidden; 
 }
 
-/* .image-container img {
-    width: 100%; 
-    height: auto;
-    display: block; 
-    object-fit:cover;
-    object-position:top;
-} */
+.skillsCon .col{
+    margin:20px 20px;
+    text-align: center;
+}
